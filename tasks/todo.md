@@ -34,7 +34,7 @@
 ### Checkpoint Phase 1
 - [ ] Lint, Typecheck und Tests grün
 - [ ] Compose startet sauber auf einer leeren Maschine
-- [ ] Offene Fragen Q1–Q6 aus `plan.md` beantwortet
+- [ ] Offene Fragen aus `plan.md` beantwortet (offen nur noch Q3)
 - [ ] Review mit euch
 
 ---
@@ -146,7 +146,7 @@
 
 ---
 
-## Phase 4: Export aus dem Spiel (Form des Skripts offen: Q7)
+## Phase 4: Export aus dem Spiel
 
 ### - [ ] T11: Anleitung und Prompt für Claude Desktop
 **Beschreibung:** Fester Prompt, mit dem Claude Desktop im eingeloggten Spiel das Rohformat immer gleich erzeugt: alle Endpunkte aus Spec 8.1, zusätzlich `data-entity-id` der Objekte und die Kunde→Produkt-Zuordnung in `sales_customerproduct`/`sales_productcustomer`. Seite `/settings/export` mit Anleitung, Prompt zum Kopieren und Link auf das Rohformat-Schema.
@@ -159,15 +159,15 @@
 **Dateien:** `shared/import/claude-desktop-prompt.ts`, `app/pages/settings/export.vue`, `tests/unit/normalize-ids.test.ts`
 **Größe:** S
 
-### - [ ] T12: Lokales Export-Skript (Form nach Q7)
-**Beschreibung:** Skript liest die HTML-Seiten des Spiels (Berichte inkl. Zeilen-CSS-Klassen, `createKpiChart`, Finanzen, Entscheidungsformulare mit `data-entity-id`, Tooltips, „blob does not exist“ → `status: open`) und erzeugt mit `normalize` eine v1-Datei. Höchstens 4 parallele Anfragen, keine Daten an Dritte, unbekannte Strukturen → `warnings[]`. Modus „HTML sichern“ liefert die Fixtures für die Tests (Q1). Bei Bedarf in zwei Tasks teilen (Parser / Laufzeit), sobald Q7 entschieden ist.
+### - [ ] T12: Konsolen-Skript für den eingeloggten Spiel-Tab
+**Beschreibung:** Skript zum Einfügen in die Browser-Konsole des eingeloggten Spiel-Tabs (ein einziges, minifiziertes Bundle ohne Nachladen, gebaut mit esbuild). Es liest die HTML-Seiten des Spiels (Berichte inkl. Zeilen-CSS-Klassen, `createKpiChart`, Finanzen, Entscheidungsformulare mit `data-entity-id`, Tooltips, „blob does not exist“ → `status: open`) und erzeugt mit `normalize` eine v1-Datei. Höchstens 4 parallele Anfragen, keine Daten an Dritte, unbekannte Strukturen → `warnings[]`. Modus „HTML sichern“ erzeugt Dateien im Format von `tests/fixtures/tfc-html/round-0-1.json.gz`. Die App-Seite `/settings/export` zeigt den Code zum Kopieren. Bei Bedarf in zwei Tasks teilen (Parser / Laufzeit).
 **Akzeptanzkriterien:**
 - [ ] Im eingeloggten Spiel entsteht eine Datei, die der Upload aus T9 ohne Fehler akzeptiert.
-- [ ] Gegen gespeicherte HTML-Fixtures: In `sales_customerproduct` hat jede Zeile `customer` und `product`, die Summe je Produkt entspricht `sales_product` (± 3 Stück).
+- [ ] Gegen `tests/fixtures/tfc-html/round-0-1.json.gz`: Runde 1 ergibt `status: open`. In `sales_customerproduct` hat jede Zeile `customer` und `product`, die Summe je Produkt entspricht `sales_product` (± 3 Stück).
 - [ ] Netzwerkanfragen gehen nur an `game.thefreshconnection.eu`. Abdeckung der Parser ≥ 90 %.
-**Verifikation:** Vitest gegen `tests/fixtures/tfc-html/` (DOM-Umgebung ggf. neue Dev-Abhängigkeit, vorher fragen). **Manueller Test im echten Spiel durch euch.**
-**Abhängigkeiten:** T8, **Q7**, **Q1 (HTML-Fixtures)**
-**Dateien:** `export-script/src/extract/*.ts`, `export-script/src/run.ts`, `tests/unit/extract.test.ts`, `tests/fixtures/tfc-html/**`
+**Verifikation:** Vitest gegen `tests/fixtures/tfc-html/round-0-1.json.gz` (DOM-Umgebung ggf. neue Dev-Abhängigkeit, vorher fragen). **Manueller Test im echten Spiel durch euch.**
+**Abhängigkeiten:** T8, T11
+**Dateien:** `export-script/src/extract/*.ts`, `export-script/src/run.ts`, `export-script/build.ts`, `tests/unit/extract.test.ts`, `tests/fixtures/tfc-html/**`
 **Größe:** M (wird ggf. geteilt)
 
 ### Checkpoint Phase 4

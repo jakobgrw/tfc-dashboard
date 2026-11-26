@@ -32,7 +32,7 @@ Folgen:
 - **Rohformat `tfc-raw`:** Das Format, das Claude Desktop heute liefert (`fin`, `rep`, `dash`, `dec0`, `dec1`, `tips`). Es bekommt ein eigenes Zod-Schema, ergänzt um optionale Felder für Entity-IDs und Hierarchie.
 - **Format v1:** Bleibt das interne Speicher- und Analyseformat aus Spec 8.2.
 - **normalize:** Rohformat → v1, reiner Code in `shared/`. Er läuft **auf dem Server beim Upload**. Die App nimmt also beide Formate an. Fehlende Infos (IDs, Kunde→Produkt) landen in `warnings[]`, statt den Upload abzulehnen.
-- **Lokales Skript** (ersetzt bzw. ergänzt das Bookmarklet, siehe Q7): liest die HTML-Seiten des Spiels und liefert direkt v1 oder Rohformat mit IDs.
+- **Konsolen-Skript** (Q7: läuft in der Browser-Konsole des eingeloggten Spiel-Tabs, ersetzt das Bookmarklet aus Spec 8.3): liest die HTML-Seiten des Spiels per `fetch` und lädt direkt eine v1-Datei herunter. Ein zweiter Modus sichert die rohen HTML-Seiten (Format wie `tests/fixtures/tfc-html/round-0-1.json.gz`).
 - **Anleitung für Claude Desktop:** Die App liefert einen festen Prompt, damit Claude Desktop das Rohformat immer gleich erzeugt, inklusive der bisher fehlenden IDs (`data-entity-id`) und der Kunde→Produkt-Zuordnung.
 
 So funktioniert der Upload schon mit dem vorhandenen Dump, und die Datenqualität steigt, sobald Skript oder Prompt mehr liefern. Das ist eine Erweiterung der Spec (8.2 kennt nur v1) und sollte dort nachgetragen werden.
@@ -62,7 +62,7 @@ T1 Scaffold + env ──► T2 Compose/DB/Migrationen
             │            │
       T4 Verify+Session  T8 normalize(raw→v1) ──► Fixture round-0.json
             │            │                 │
-      T5 Rate Limits     │                 └──► T12 Lokales Skript (Q7, braucht HTML-Fixtures, Q1)
+      T5 Rate Limits     │                 └──► T12 Konsolen-Skript (HTML-Fixtures vorhanden)
             │            │                            │
       T6 Allowlist-UI    ▼                       T11 Claude-Desktop-Prompt + Seite (nach T9)
             │       T9 Upload + Versionen (requireAdmin aus T4)
@@ -97,22 +97,22 @@ T1 Scaffold + env ──► T2 Compose/DB/Migrationen
 | 1 Fundament | T1–T2 | App startet lokal und per Compose, DB migriert |
 | 2 Auth | T3–T6 | Login per Link/Code, Admin, Allowlist, Rate Limits |
 | 3 Rundendaten | T7–T10 | v1-Schema, Fixture, Upload mit Versionen, abfragbare Daten |
-| 4 Export aus dem Spiel | T11–T12 | Lokales Skript und Claude-Desktop-Anleitung (T11 **blockiert durch Q1**, Form des Skripts **offen: Q7**) |
+| 4 Export aus dem Spiel | T11–T12 | Claude-Desktop-Prompt und Konsolen-Skript für den Spiel-Tab |
 | 5 Dashboard | T13–T16 | Übersicht, Flussdiagramm, Detailansichten, Vergleich, alles ohne KI |
 | 6 KI-Analyse | T17–T22 | Analyse mit Claude/Gemini, Validierung, Anzeige, Einstellungen |
 | 7 Abschluss | T23–T24 | NFRs, E2E, Abnahme der Erfolgskriterien aus Spec 14 |
 
 Nach jeder Phase gibt es einen Checkpoint mit Review durch euch.
 
-**Parallelisierbar:** Phase 4 (Export aus dem Spiel) läuft unabhängig von Phase 5 und 6, sobald T8 fertig ist und die HTML-Fixtures da sind. T16 (Vergleich) ist unabhängig von T13–T15. T17 (Provider) kann parallel zu Phase 5 starten.
+**Parallelisierbar:** Phase 4 (Export aus dem Spiel) läuft unabhängig von Phase 5 und 6, sobald T8 fertig ist. T16 (Vergleich) ist unabhängig von T13–T15. T17 (Provider) kann parallel zu Phase 5 starten.
 
 ## Risiken und Gegenmaßnahmen
 
 | Risiko | Auswirkung | Gegenmaßnahme |
 |---|---|---|
-| HTML-Fixtures des Spiels fehlen. Der Rohdump hat keine IDs und keine Kunde→Produkt-Hierarchie | **Hoch**: Werte lassen sich KPIs und Objekten nicht sicher zuordnen | A1. Upload nimmt den Dump trotzdem an und warnt. Claude-Desktop-Prompt (T11) fordert IDs und Hierarchie an. HTML-Fixtures für das Skript früh beschaffen (Q1) |
+| Der Claude-Desktop-Dump hat keine IDs und keine Kunde→Produkt-Hierarchie | **Hoch**: Werte lassen sich KPIs und Objekten nicht sicher zuordnen | A1. Upload nimmt den Dump trotzdem an und warnt. Claude-Desktop-Prompt (T11) fordert IDs und Hierarchie an. Das Konsolen-Skript liest beides direkt aus dem HTML |
 | Spiel-HTML ändert sich (neue Version, Markup) | Mittel | `extract` bricht nie ab, schreibt `warnings[]`. Parsertests gegen gespeicherte HTML-Dateien |
-| CSP des Spiels blockiert ein Skript im Spiel-Tab (bei Q7 = a) | Mittel | Selbständiges Bundle ohne externe Skripte, Konsolen-Fallback (Spec 8.3). Früh im echten Spiel testen (Checkpoint 4) |
+| CSP des Spiels blockiert ein Skript im Spiel-Tab | Niedrig | Code wird in die Konsole eingefügt, nicht nachgeladen. Ein einziges Bundle ohne externe Skripte. Früh im echten Spiel testen (Checkpoint 4) |
 | KI liefert ungültige Änderungen oder erfundene Belege | Hoch für den Nutzen | Strikte Validierung (T19), Markierung statt Verwerfen, sichtbarer Hinweis |
 | Gemini-Schema unterstützt nicht alle JSON-Schema-Konstrukte | Mittel | Antwortschema flach halten (keine `oneOf`/`$ref`). Vertragstest für beide Adapter mit demselben Schema |
 | Prompt zu groß (alle Berichte + Entscheidungen + Historie) | Mittel: Kosten, Kontextgrenze | Kompakte Serialisierung (Tabellen als CSV-artige Blöcke). Tokens im Test messen, bei Bedarf Historie verdichten |
@@ -124,10 +124,10 @@ Nach jeder Phase gibt es einen Checkpoint mit Review durch euch.
 
 | # | Frage | Vorschlag bis zur Klärung |
 |---|---|---|
-| **Q1** | Könnt ihr die **rohen HTML-Antworten des Spiels** für Runde 0 speichern (alle Endpunkte aus Spec 8.1, inkl. aufgeklappter `sales_customerproduct`-Tabelle mit CSS-Klassen und den Entscheidungsseiten mit `data-entity-id`)? Ohne sie lässt sich der Parser des lokalen Skripts nicht gegen echte Daten testen. | Das lokale Skript bekommt einen Modus „HTML sichern“. Bis dahin ist T11 zurückgestellt |
+| ~~Q1~~ | ~~HTML-Antworten des Spiels?~~ | **Geklärt:** Export vom 26.11.2026 liegt anonymisiert in `tests/fixtures/tfc-html/round-0-1.json.gz` (49 Seiten: alle Berichte, KPI-Dashboards, Finanzen und Decision-Logs für Runde 0 und 1 (offen), die 11 Entscheidungsseiten, 157 Tooltips). Enthält `data-entity-id`. Die Kunde→Produkt-Zuordnung ergibt sich aus der Zeilenfolge (Kunde als `<th>`, Produkte eingerückt darunter) |
 | ~~Q2~~ | ~~Woher stammt `tfc_round0.json`?~~ | **Geklärt:** aus Claude Desktop. Künftig per lokalem Skript oder Claude Desktop (A1) |
 | Q3 | Die Spec nennt `SPEC.md`, die Datei heißt `tfc_SPEC.md`. Umbenennen? | Name so lassen (A9) |
 | ~~Q4~~ | ~~Runden −2 und −1?~~ | **Geklärt:** nur Verlauf. Sie erscheinen als Verlaufspunkte in KPIs und Finanzen, nie als eigene Runde. Das Schema erlaubt `round ≥ -2` nur für Verlaufspunkte |
-| **Q7** | Was genau heißt „lokal ausgeführtes Skript“? (a) Skript im **eingeloggten Spiel-Tab** (Browser-Konsole bzw. Bookmarklet). Es nutzt eure bestehende Sitzung, es braucht keine Zugangsdaten. (b) **Eigenständiges Programm** auf eurem Rechner (Node + Playwright), das sich selbst im Spiel einloggt | (a): Es braucht keine Passwörter, ist mit Spec 13 vereinbar („kein Login ins Spiel“ aus der App) und läuft in jedem Browser. Für (b) müssten Spiel-Zugangsdaten lokal gespeichert werden |
-| Q5 | Spec 8.4: „Daten 10 Berichte, Finanzen (66 Zeilen)“. Der Dump hat 66 Zeilen **inklusive** Kopfzeile „Round“. Zählt die Kopfzeile mit? | Kopfzeile wird zu `columns`, es bleiben 65 Datenzeilen. Das Akzeptanzkriterium wird entsprechend angepasst |
+| ~~Q7~~ | ~~Form des lokalen Skripts?~~ | **Geklärt:** (a) Skript im eingeloggten Spiel-Tab, ausgeführt über die Browser-Konsole |
+| ~~Q5~~ | ~~66 oder 65 Finanzzeilen?~~ | **Geklärt:** 65 Datenzeilen, die Kopfzeile „Round“ wird zu `columns` |
 | Q6 | `ANALYSIS_MAX_RUNS_PER_DAY` steht nicht in `.env.example` (Spec 5). Aufnehmen? | Ja, als optionale Variable |
