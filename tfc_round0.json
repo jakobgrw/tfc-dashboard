@@ -1,0 +1,5982 @@
+{
+ "fin": [
+  [
+   -1,
+   "Round",
+   "0",
+   "-1",
+   "Difference"
+  ],
+  [
+   0,
+   "ROI",
+   "-7.68%",
+   "-7.68%",
+   "0.00%"
+  ],
+  [
+   0,
+   "Realized revenue",
+   "2,306,255",
+   "2,306,255",
+   "0"
+  ],
+  [
+   1,
+   "Contracted sales revenue",
+   "2,628,963",
+   "2,628,963",
+   "0"
+  ],
+  [
+   2,
+   "Food & Groceries",
+   "1,297,902",
+   "1,297,902",
+   "0"
+  ],
+  [
+   2,
+   "LAND Market",
+   "632,821",
+   "632,821",
+   "0"
+  ],
+  [
+   2,
+   "Dominick's",
+   "698,240",
+   "698,240",
+   "0"
+  ],
+  [
+   1,
+   "Bonus or penalties",
+   "-322,708",
+   "-322,708",
+   "0"
+  ],
+  [
+   2,
+   "Service level",
+   "-322,708",
+   "-322,708",
+   "0"
+  ],
+  [
+   3,
+   "Food & Groceries",
+   "-252,766",
+   "-252,766",
+   "0"
+  ],
+  [
+   3,
+   "LAND Market",
+   "-46,360",
+   "-46,360",
+   "0"
+  ],
+  [
+   3,
+   "Dominick's",
+   "-23,582",
+   "-23,582",
+   "0"
+  ],
+  [
+   0,
+   "Gross margin",
+   "903,148",
+   "903,148",
+   "0"
+  ],
+  [
+   1,
+   "Cost of goods sold",
+   "1,403,107",
+   "1,403,107",
+   "0"
+  ],
+  [
+   2,
+   "Purchase value",
+   "911,617",
+   "911,617",
+   "0"
+  ],
+  [
+   3,
+   "Mono Packaging Materials",
+   "110,692",
+   "110,692",
+   "0"
+  ],
+  [
+   3,
+   "Trio PET PLC",
+   "307,931",
+   "307,931",
+   "0"
+  ],
+  [
+   3,
+   "Miami Oranges",
+   "409,042",
+   "409,042",
+   "0"
+  ],
+  [
+   3,
+   "NO8DO Mango",
+   "81,658",
+   "81,658",
+   "0"
+  ],
+  [
+   3,
+   "Seitan Vitamins",
+   "2,295",
+   "2,295",
+   "0"
+  ],
+  [
+   2,
+   "Production costs",
+   "491,489",
+   "491,489",
+   "0"
+  ],
+  [
+   3,
+   "Bottling lines fixed costs",
+   "49,000",
+   "49,000",
+   "0"
+  ],
+  [
+   3,
+   "Permanent employees",
+   "200,000",
+   "200,000",
+   "0"
+  ],
+  [
+   3,
+   "Flexible manpower",
+   "66,670",
+   "66,670",
+   "0"
+  ],
+  [
+   3,
+   "Mixer fixed costs",
+   "31,250",
+   "31,250",
+   "0"
+  ],
+  [
+   3,
+   "Mixer variable costs",
+   "144,569",
+   "144,569",
+   "0"
+  ],
+  [
+   0,
+   "Indirect cost",
+   "1,209,651",
+   "1,209,651",
+   "0"
+  ],
+  [
+   1,
+   "Overhead costs",
+   "324,302",
+   "324,302",
+   "0"
+  ],
+  [
+   2,
+   "Energy",
+   "150,904",
+   "150,904",
+   "0"
+  ],
+  [
+   2,
+   "Water",
+   "26,779",
+   "26,779",
+   "0"
+  ],
+  [
+   2,
+   "Other",
+   "146,619",
+   "146,619",
+   "0"
+  ],
+  [
+   1,
+   "Stock costs",
+   "365,621",
+   "365,621",
+   "0"
+  ],
+  [
+   2,
+   "Interest on stock value",
+   "24,107",
+   "24,107",
+   "0"
+  ],
+  [
+   3,
+   "Interest components",
+   "11,181",
+   "11,181",
+   "0"
+  ],
+  [
+   3,
+   "Interest products",
+   "12,926",
+   "12,926",
+   "0"
+  ],
+  [
+   2,
+   "Space",
+   "301,311",
+   "301,311",
+   "0"
+  ],
+  [
+   3,
+   "Pallet locations raw materials warehouse",
+   "90,000",
+   "90,000",
+   "0"
+  ],
+  [
+   3,
+   "Overflow raw materials warehouse",
+   "35,423",
+   "35,423",
+   "0"
+  ],
+  [
+   3,
+   "Outsourcing tank yard",
+   "25,282",
+   "25,282",
+   "0"
+  ],
+  [
+   3,
+   "Pallet locations finished goods warehouse",
+   "150,000",
+   "150,000",
+   "0"
+  ],
+  [
+   3,
+   "Overflow finished goods warehouse",
+   "607",
+   "607",
+   "0"
+  ],
+  [
+   2,
+   "Risk",
+   "40,203",
+   "40,203",
+   "0"
+  ],
+  [
+   3,
+   "Costs of scrap",
+   "40,203",
+   "40,203",
+   "0"
+  ],
+  [
+   1,
+   "Handling costs",
+   "190,477",
+   "190,477",
+   "0"
+  ],
+  [
+   2,
+   "Inbound handling",
+   "106,753",
+   "106,753",
+   "0"
+  ],
+  [
+   3,
+   "Inbound permanent employees",
+   "100,000",
+   "100,000",
+   "0"
+  ],
+  [
+   3,
+   "Inbound flexible manpower",
+   "6,753",
+   "6,753",
+   "0"
+  ],
+  [
+   2,
+   "Outbound handling",
+   "83,725",
+   "83,725",
+   "0"
+  ],
+  [
+   3,
+   "Outbound permanent employees",
+   "80,000",
+   "80,000",
+   "0"
+  ],
+  [
+   3,
+   "Outbound flexible manpower",
+   "3,725",
+   "3,725",
+   "0"
+  ],
+  [
+   1,
+   "Administration costs",
+   "109,717",
+   "109,717",
+   "0"
+  ],
+  [
+   2,
+   "Inbound",
+   "101,624",
+   "101,624",
+   "0"
+  ],
+  [
+   3,
+   "Inbound order lines",
+   "271",
+   "271",
+   "0"
+  ],
+  [
+   3,
+   "Inbound orders",
+   "1,353",
+   "1,353",
+   "0"
+  ],
+  [
+   3,
+   "Contracted suppliers",
+   "100,000",
+   "100,000",
+   "0"
+  ],
+  [
+   2,
+   "Outbound",
+   "8,093",
+   "8,093",
+   "0"
+  ],
+  [
+   3,
+   "Outbound order lines",
+   "927",
+   "927",
+   "0"
+  ],
+  [
+   3,
+   "Outbound orders",
+   "7,167",
+   "7,167",
+   "0"
+  ],
+  [
+   1,
+   "Distribution costs",
+   "192,114",
+   "192,114",
+   "0"
+  ],
+  [
+   1,
+   "Interest",
+   "27,419",
+   "27,419",
+   "0"
+  ],
+  [
+   0,
+   "Operating profit",
+   "-306,503",
+   "-306,503",
+   "0"
+  ],
+  [
+   0,
+   "Investment",
+   "3,989,513",
+   "3,989,513",
+   "0"
+  ],
+  [
+   1,
+   "Fixed",
+   "2,500,000",
+   "2,500,000",
+   "0"
+  ],
+  [
+   1,
+   "Stock",
+   "321,424",
+   "321,424",
+   "0"
+  ],
+  [
+   1,
+   "Machines",
+   "802,500",
+   "802,500",
+   "0"
+  ],
+  [
+   1,
+   "Payment terms",
+   "365,589",
+   "365,589",
+   "0"
+  ]
+ ],
+ "dec1": {
+  "/v10/MyCompany/Purchasing/Supplier/Index": [
+   {
+    "g": "Pack",
+    "rows": [
+     [
+      "",
+      "Mono Packaging Materials"
+     ],
+     [
+      "Contract index",
+      "0.9940"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "15",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "France",
+      ""
+     ],
+     [
+      "Free capacity",
+      "18%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet",
+         "o": [
+          "Pallet",
+          "FTL"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "4 hours",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "PET",
+    "rows": [
+     [
+      "",
+      "Trio PET PLC"
+     ],
+     [
+      "Contract index",
+      "0.9620"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Poor",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "10",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "Spain",
+      ""
+     ],
+     [
+      "Free capacity",
+      "3%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet",
+         "o": [
+          "Pallet layer",
+          "Pallet",
+          "FTL"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "94.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Orange",
+    "rows": [
+     [
+      "",
+      "Miami Oranges"
+     ],
+     [
+      "Contract index",
+      "1.0040"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "30",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "United States",
+      ""
+     ],
+     [
+      "Free capacity",
+      "38%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Tank",
+         "o": [
+          "Drum",
+          "IBC",
+          "Tank"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "98.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Mango",
+    "rows": [
+     [
+      "",
+      "NO8DO Mango"
+     ],
+     [
+      "Contract index",
+      "1.0580"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "10",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "Spain",
+      ""
+     ],
+     [
+      "Free capacity",
+      "4%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "IBC",
+         "o": [
+          "Drum",
+          "IBC",
+          "Tank"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "96.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Vitamin C",
+    "rows": [
+     [
+      "",
+      "Seitan Vitamins"
+     ],
+     [
+      "Contract index",
+      "0.9658"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "60",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "China",
+      ""
+     ],
+     [
+      "Free capacity",
+      "50%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "8",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Drum",
+         "o": [
+          "Drum",
+          "IBC",
+          "Tank"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "90.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Operations/IngaandMagazijn": [
+   {
+    "g": "Raw materials warehouse",
+    "rows": [
+     [
+      "Number of pallet locations",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "900",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Number of permanent employees (FTE)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "5",
+         "ro": true
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Operations/Mengen": [
+   {
+    "g": "Mixers available",
+    "rows": [
+     [
+      "Fruitmix MQ",
+      ""
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Operations/Afvullen": [
+   {
+    "g": "Line settings",
+    "rows": [
+     [
+      "Bottling line",
+      "Swiss Fill 2"
+     ],
+     [
+      "Number of shifts",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "2",
+         "o": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "SMED action",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Increase speed",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Operations/OutboundWarehouse/Index": [
+   {
+    "g": "Finished goods warehouse",
+    "rows": [
+     [
+      "",
+      "DC Netherlands"
+     ],
+     [
+      "Number of pallet locations",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "1500"
+        }
+       ]
+      }
+     ],
+     [
+      "Number of permanent employees (FTE)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Sales/Customer/Index": [
+   {
+    "g": "Food & Groceries",
+    "rows": [
+     [
+      "Contract index",
+      "1.0085"
+     ],
+     [
+      "Service level type",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Order lines",
+         "o": [
+          "Units",
+          "Order lines",
+          "Orders"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Service level (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Shelf life (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "75.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Order deadline",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "20.00 pm",
+         "o": [
+          "12.00 pm",
+          "14.00 pm",
+          "17.00 pm",
+          "20.00 pm"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet layer",
+         "o": [
+          "Box",
+          "Pallet layer",
+          "Pallet"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Promotional pressure",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Middle",
+         "o": [
+          "None",
+          "Light",
+          "Middle",
+          "Heavy"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Promotion horizon",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Short",
+         "o": [
+          "Short",
+          "Middle",
+          "Long"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "LAND Market",
+    "rows": [
+     [
+      "Contract index",
+      "0.9615"
+     ],
+     [
+      "Service level type",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Order lines",
+         "o": [
+          "Units",
+          "Order lines",
+          "Orders"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Service level (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Shelf life (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "75.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Order deadline",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "17.00 pm",
+         "o": [
+          "12.00 pm",
+          "14.00 pm",
+          "17.00 pm",
+          "20.00 pm"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet layer",
+         "o": [
+          "Box",
+          "Pallet layer",
+          "Pallet"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Promotional pressure",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Middle",
+         "o": [
+          "None",
+          "Light",
+          "Middle",
+          "Heavy"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Promotion horizon",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Short",
+         "o": [
+          "Short",
+          "Middle",
+          "Long"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Dominick's",
+    "rows": [
+     [
+      "Contract index",
+      "1.0166"
+     ],
+     [
+      "Service level type",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Order lines",
+         "o": [
+          "Units",
+          "Order lines",
+          "Orders"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Service level (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Shelf life (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "75.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Order deadline",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "12.00 pm",
+         "o": [
+          "12.00 pm",
+          "14.00 pm",
+          "17.00 pm",
+          "20.00 pm"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet",
+         "o": [
+          "Box",
+          "Pallet layer",
+          "Pallet"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Promotional pressure",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Middle",
+         "o": [
+          "None",
+          "Light",
+          "Middle",
+          "Heavy"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Promotion horizon",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Short",
+         "o": [
+          "Short",
+          "Middle",
+          "Long"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Sales/Algemeen": [
+   {
+    "g": "Order management",
+    "rows": [
+     [
+      "Shortage rule",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Proportional",
+         "o": [
+          "Customer priority",
+          "Proportional",
+          "First come, first served"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/Sales/ProductRationalisatie": [
+   {
+    "g": "Category management",
+    "rows": [
+     [
+      "Customer"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "LAND Market",
+      "Dominick's"
+     ],
+     [
+      "Fressie Orange 1 liter",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power 1 liter",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango 1 liter",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange PET",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power PET",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango PET",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/SupplyChainManagement/VoorraadBesturingComponenten": [
+   {
+    "g": "Stock management components",
+    "rows": [
+     [
+      "Safety stock (weeks)",
+      "Lot size (weeks)"
+     ],
+     [
+      "Pack 1 liter",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0"
+        }
+       ]
+      }
+     ],
+     [
+      "PET",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Orange",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Mango",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Vitamin C",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/SupplyChainManagement/ProductieBesturing": [
+   {
+    "g": "Production management",
+    "rows": [
+     [
+      "Frozen period of production (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3",
+         "ro": true
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "/v10/MyCompany/SupplyChainManagement/StockManagement/Index": [
+   {
+    "g": "Stock management finished goods",
+    "rows": [
+     [
+      "Production interval (days)",
+      "Safety stock (weeks)"
+     ],
+     [
+      "",
+      "DC Netherlands"
+     ],
+     [
+      "Fressie Orange 1 liter",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power 1 liter",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango 1 liter",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange PET",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power PET",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango PET",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ "dec0": {
+  "Purchasing": [
+   {
+    "g": "Pack",
+    "rows": [
+     [
+      "",
+      "Mono Packaging Materials"
+     ],
+     [
+      "Contract index",
+      "0.9940"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "15",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "France",
+      ""
+     ],
+     [
+      "Free capacity",
+      "18%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet",
+         "o": [
+          "Pallet",
+          "FTL"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "4 hours",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "PET",
+    "rows": [
+     [
+      "",
+      "Trio PET PLC"
+     ],
+     [
+      "Contract index",
+      "0.9620"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Poor",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "10",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "Spain",
+      ""
+     ],
+     [
+      "Free capacity",
+      "3%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet",
+         "o": [
+          "Pallet layer",
+          "Pallet",
+          "FTL"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "94.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Orange",
+    "rows": [
+     [
+      "",
+      "Miami Oranges"
+     ],
+     [
+      "Contract index",
+      "1.0040"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "30",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "United States",
+      ""
+     ],
+     [
+      "Free capacity",
+      "38%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Tank",
+         "o": [
+          "Drum",
+          "IBC",
+          "Tank"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "98.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Mango",
+    "rows": [
+     [
+      "",
+      "NO8DO Mango"
+     ],
+     [
+      "Contract index",
+      "1.0580"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "10",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "Spain",
+      ""
+     ],
+     [
+      "Free capacity",
+      "4%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "IBC",
+         "o": [
+          "Drum",
+          "IBC",
+          "Tank"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "96.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Vitamin C",
+    "rows": [
+     [
+      "",
+      "Seitan Vitamins"
+     ],
+     [
+      "Contract index",
+      "0.9658"
+     ],
+     [
+      "Quality",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "High",
+         "o": [
+          "High",
+          "Middle",
+          "Poor"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Lead time (days)",
+      "60",
+      ""
+     ],
+     [
+      "Certification",
+      "",
+      ""
+     ],
+     [
+      "Country",
+      "China",
+      ""
+     ],
+     [
+      "Free capacity",
+      "50%",
+      ""
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "8",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Drum",
+         "o": [
+          "Drum",
+          "IBC",
+          "Tank"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Agreed delivery reliability (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "90.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Delivery window",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "1 day",
+         "o": [
+          "4 hours",
+          "1 day",
+          "2 days",
+          "1 week"
+         ]
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "",
+      "Negotiate Calculate Deal Cancel",
+      ""
+     ]
+    ]
+   }
+  ],
+  "Operations": [
+   {
+    "g": "Raw materials warehouse",
+    "rows": [
+     [
+      "Number of pallet locations",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "900",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Number of permanent employees (FTE)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "5",
+         "ro": true
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Mixers available",
+    "rows": [
+     [
+      "Fruitmix MQ",
+      ""
+     ]
+    ]
+   },
+   {
+    "g": "Line settings",
+    "rows": [
+     [
+      "Bottling line",
+      "Swiss Fill 2"
+     ],
+     [
+      "Number of shifts",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "2",
+         "o": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Finished goods warehouse",
+    "rows": [
+     [
+      "",
+      "DC Netherlands"
+     ],
+     [
+      "Number of pallet locations",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "1500",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Number of permanent employees (FTE)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "Sales": [
+   {
+    "g": "Order management",
+    "rows": [
+     [
+      "Shortage rule",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Proportional",
+         "o": [
+          "Customer priority",
+          "Proportional",
+          "First come, first served"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Category management",
+    "rows": [
+     [
+      "Customer"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "LAND Market",
+      "Dominick's"
+     ],
+     [
+      "Fressie Orange 1 liter",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power 1 liter",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango 1 liter",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": false
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange PET",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power PET",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango PET",
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "checkbox",
+         "v": true
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Food & Groceries",
+    "rows": [
+     [
+      "Contract index",
+      "1.0085"
+     ],
+     [
+      "Service level type",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Order lines",
+         "o": [
+          "Units",
+          "Order lines",
+          "Orders"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Service level (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Shelf life (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "75.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Order deadline",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "20.00 pm",
+         "o": [
+          "12.00 pm",
+          "14.00 pm",
+          "17.00 pm",
+          "20.00 pm"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet layer",
+         "o": [
+          "Box",
+          "Pallet layer",
+          "Pallet"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Promotional pressure",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Middle",
+         "o": [
+          "None",
+          "Light",
+          "Middle",
+          "Heavy"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Promotion horizon",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Short",
+         "o": [
+          "Short",
+          "Middle",
+          "Long"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "LAND Market",
+    "rows": [
+     [
+      "Contract index",
+      "0.9615"
+     ],
+     [
+      "Service level type",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Order lines",
+         "o": [
+          "Units",
+          "Order lines",
+          "Orders"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Service level (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Shelf life (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "75.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Order deadline",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "17.00 pm",
+         "o": [
+          "12.00 pm",
+          "14.00 pm",
+          "17.00 pm",
+          "20.00 pm"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet layer",
+         "o": [
+          "Box",
+          "Pallet layer",
+          "Pallet"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Promotional pressure",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Middle",
+         "o": [
+          "None",
+          "Light",
+          "Middle",
+          "Heavy"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Promotion horizon",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Short",
+         "o": [
+          "Short",
+          "Middle",
+          "Long"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Dominick's",
+    "rows": [
+     [
+      "Contract index",
+      "1.0166"
+     ],
+     [
+      "Service level type",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Order lines",
+         "o": [
+          "Units",
+          "Order lines",
+          "Orders"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Service level (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "95.0"
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Shelf life (%)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "75.0",
+         "ro": true
+        }
+       ]
+      },
+      ""
+     ],
+     [
+      "Order deadline",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "12.00 pm",
+         "o": [
+          "12.00 pm",
+          "14.00 pm",
+          "17.00 pm",
+          "20.00 pm"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Trade unit",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Pallet",
+         "o": [
+          "Box",
+          "Pallet layer",
+          "Pallet"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Payment term (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Promotional pressure",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Middle",
+         "o": [
+          "None",
+          "Light",
+          "Middle",
+          "Heavy"
+         ]
+        }
+       ]
+      }
+     ],
+     [
+      "Promotion horizon",
+      {
+       "c": [
+        {
+         "k": "select",
+         "v": "Short",
+         "o": [
+          "Short",
+          "Middle",
+          "Long"
+         ]
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "SupplyChainManagement": [
+   {
+    "g": "Stock management components",
+    "rows": [
+     [
+      "Safety stock (weeks)",
+      "Lot size (weeks)"
+     ],
+     [
+      "Pack 1 liter",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "PET",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Orange",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Mango",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0",
+         "ro": true
+        }
+       ]
+      }
+     ],
+     [
+      "Vitamin C",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "2.0"
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "4.0",
+         "ro": true
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Production management",
+    "rows": [
+     [
+      "Frozen period of production (weeks)",
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3",
+         "ro": true
+        }
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "g": "Stock management finished goods",
+    "rows": [
+     [
+      "Production interval (days)",
+      "Safety stock (weeks)"
+     ],
+     [
+      "",
+      "DC Netherlands"
+     ],
+     [
+      "Fressie Orange 1 liter",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10",
+         "ro": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power 1 liter",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10",
+         "ro": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango 1 liter",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10",
+         "ro": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange PET",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10",
+         "ro": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/C-power PET",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10",
+         "ro": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ],
+     [
+      "Fressie Orange/Mango PET",
+      {
+       "c": [
+        {
+         "k": "number",
+         "v": "10",
+         "ro": true
+        }
+       ]
+      },
+      {
+       "c": [
+        {
+         "k": "text",
+         "v": "3.0"
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ "rep": {
+  "0|Purchasing|purchasing_supplier": [
+   {
+    "title": "Supplier",
+    "rows": [
+     [
+      "Supplier/Component",
+      "Delivery reliability (%)",
+      "Rejection (%)",
+      "Deliveries",
+      "Order lines",
+      "Purchase value",
+      "Transport costs",
+      "Demand per week (piece or liter)",
+      "Amount purchased (pieces or liters)",
+      "Purchase price (per piece or liter)",
+      "Order size (pieces or liters)"
+     ],
+     [
+      "Mono Packaging Materials",
+      "92.3%",
+      "3.6%",
+      "5.7",
+      "5.7",
+      "€ 110,692",
+      "€ 4,552",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Pack 1 liter",
+      "",
+      "3.6%",
+      "",
+      "5.7",
+      "€ 110,692",
+      "€ 4,552",
+      "132,257",
+      "3,559,348",
+      "€ 0.0311",
+      "619,636"
+     ],
+     [
+      "Trio PET PLC",
+      "84.1%",
+      "5.9%",
+      "5.9",
+      "5.9",
+      "€ 307,931",
+      "€ 145,393",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "PET",
+      "",
+      "5.9%",
+      "",
+      "5.9",
+      "€ 307,931",
+      "€ 145,393",
+      "204,297",
+      "5,631,948",
+      "€ 0.0547",
+      "951,612"
+     ],
+     [
+      "Miami Oranges",
+      "97.8%",
+      "1.0%",
+      "5.4",
+      "5.4",
+      "€ 409,042",
+      "€ 35,046",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Orange",
+      "",
+      "1.0%",
+      "",
+      "5.4",
+      "€ 409,042",
+      "€ 35,046",
+      "35,360",
+      "931,265",
+      "€ 0.4392",
+      "172,581"
+     ],
+     [
+      "NO8DO Mango",
+      "93.7%",
+      "0.5%",
+      "5.3",
+      "5.3",
+      "€ 81,658",
+      "€ 3,314",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Mango",
+      "",
+      "0.5%",
+      "",
+      "5.3",
+      "€ 81,658",
+      "€ 3,314",
+      "3,165",
+      "82,276",
+      "€ 0.9925",
+      "15,497"
+     ],
+     [
+      "Seitan Vitamins",
+      "81.5%",
+      "1.2%",
+      "4.7",
+      "4.7",
+      "€ 2,295",
+      "€ 1,592",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Vitamin C",
+      "",
+      "1.2%",
+      "",
+      "4.7",
+      "€ 2,295",
+      "€ 1,592",
+      "184",
+      "4,852",
+      "€ 0.4729",
+      "1,032"
+     ]
+    ]
+   }
+  ],
+  "0|Purchasing|purchasing_component": [
+   {
+    "title": "Component",
+    "rows": [
+     [
+      "Component/Supplier",
+      "Delivery reliability (%)",
+      "Rejection (%)",
+      "Purchases",
+      "Purchase value",
+      "Transport costs",
+      "Demand per week (pieces or liters)",
+      "Purchase price (per piece or liter)",
+      "Order size (pieces or liters)"
+     ],
+     [
+      "Pack 1 liter",
+      "92.3%",
+      "3.6%",
+      "5.7",
+      "€ 110,692",
+      "€ 4,552",
+      "132,257",
+      "€ 0.0311",
+      "619,636"
+     ],
+     [
+      "PET",
+      "84.1%",
+      "5.9%",
+      "5.9",
+      "€ 307,931",
+      "€ 145,393",
+      "204,297",
+      "€ 0.0547",
+      "951,612"
+     ],
+     [
+      "Orange",
+      "97.8%",
+      "1.0%",
+      "5.4",
+      "€ 409,042",
+      "€ 35,046",
+      "35,360",
+      "€ 0.4392",
+      "172,581"
+     ],
+     [
+      "Mango",
+      "93.7%",
+      "0.5%",
+      "5.3",
+      "€ 81,658",
+      "€ 3,314",
+      "3,165",
+      "€ 0.9925",
+      "15,497"
+     ],
+     [
+      "Vitamin C",
+      "81.5%",
+      "1.2%",
+      "4.7",
+      "€ 2,295",
+      "€ 1,592",
+      "184",
+      "€ 0.4729",
+      "1,032"
+     ]
+    ]
+   }
+  ],
+  "0|Operations|operations_warehousing": [
+   {
+    "title": "Warehousing",
+    "rows": [
+     [
+      "Inbound/Outbound",
+      "Capacity",
+      "Usage",
+      "Cube utilization (%)",
+      "Overflow (%)",
+      "Order lines per week",
+      "Pallets/tanks per week",
+      "Hours per week",
+      "Flexible manpower (FTE)",
+      "Outsourcing tank yard (tank-days per week)"
+     ],
+     [
+      "DC Netherlands"
+     ],
+     [
+      "Raw materials warehouse",
+      "900",
+      "840",
+      "93.4%",
+      "10.8%",
+      "1.0",
+      "212.4",
+      "74",
+      "0.2",
+      ""
+     ],
+     [
+      "Outsourcing tank yard",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "29"
+     ],
+     [
+      "Finished goods warehouse",
+      "1,500",
+      "1,061",
+      "70.7%",
+      "0.1%",
+      "17.8",
+      "334.5",
+      "100",
+      "0.1"
+     ]
+    ]
+   }
+  ],
+  "0|Operations|operations_mixingbottling": [
+   {
+    "title": "Mixing and Bottling",
+    "rows": [
+     [
+      "Line",
+      "Run time (hours)",
+      "Changeover time (hours)",
+      "Breakdown time (hours)",
+      "Unused capacity (hours)",
+      "Overtime (hours)",
+      "Run time (%)",
+      "Changeover time (%)",
+      "Breakdown time (%)",
+      "Unused capacity (%)",
+      "Overtime (%)",
+      "Start up productivity loss (value)",
+      "Production plan adherence (%)"
+     ],
+     [
+      "Swiss Fill 2",
+      "62.6",
+      "12.1",
+      "10.8",
+      "3.9",
+      "9.4",
+      "78.2%",
+      "15.1%",
+      "13.6%",
+      "4.9%",
+      "11.7%",
+      "€ 8,435",
+      "78.7%"
+     ]
+    ]
+   },
+   {
+    "title": "Mixer",
+    "rows": [
+     [
+      "Mixer",
+      "Cleaning time (%)",
+      "Average lot size (liter)"
+     ],
+     [
+      "Fruitmix MQ",
+      "14.5%",
+      "11,022"
+     ]
+    ]
+   }
+  ],
+  "0|Sales|sales_customer": [
+   {
+    "title": "Customer report",
+    "rows": [
+     [
+      "Customer",
+      "Attained contract index",
+      "Service level (pieces)",
+      "Service level (order lines)",
+      "Service level (orders)",
+      "OSA",
+      "Revenue",
+      "Gross margin per week",
+      "Shipments per week",
+      "Order lines per week",
+      "Pallets per week",
+      "Days in warehouse",
+      "Attained shelf life (%)",
+      "Distribution costs"
+     ],
+     [
+      "Food & Groceries",
+      "0.812",
+      "94.8%",
+      "91.2%",
+      "85.5%",
+      "91.2%",
+      "€ 1,045,136",
+      "€ 13,963",
+      "8",
+      "7.0",
+      "168.7",
+      "14.7",
+      "85.9%",
+      "€ 94,368"
+     ],
+     [
+      "LAND Market",
+      "0.891",
+      "94.4%",
+      "92.1%",
+      "86.9%",
+      "90.6%",
+      "€ 586,461",
+      "€ 9,188",
+      "5",
+      "6.9",
+      "88.6",
+      "15.1",
+      "85.3%",
+      "€ 52,623"
+     ],
+     [
+      "Dominick's",
+      "0.982",
+      "96.7%",
+      "93.2%",
+      "91.2%",
+      "97.0%",
+      "€ 674,658",
+      "€ 11,585",
+      "4",
+      "3.9",
+      "77.2",
+      "14.3",
+      "86.6%",
+      "€ 45,124"
+     ]
+    ]
+   }
+  ],
+  "0|Sales|sales_product": [
+   {
+    "title": "Product report",
+    "rows": [
+     [
+      "Product",
+      "Demand per week (pieces)",
+      "Demand value per week",
+      "Unit price",
+      "Gross margin per piece",
+      "Service level (pieces)",
+      "Service level (order lines)",
+      "OSA",
+      "Order lines per week",
+      "Assignable Contribution Rate",
+      "Bias",
+      "Obsoletes (%)",
+      "Obsoletes value per week"
+     ],
+     [
+      "Fressie Orange 1 liter",
+      "67,394",
+      "€ 25,508",
+      "€ 0.379",
+      "€ 0.147",
+      "93.4%",
+      "92.1%",
+      "87.2%",
+      "3",
+      "€ 569",
+      "0.0%",
+      "8.4%",
+      "€ 1,319"
+     ],
+     [
+      "Fressie Orange/C-power 1 liter",
+      "11,361",
+      "€ 5,256",
+      "€ 0.463",
+      "€ 0.204",
+      "83.8%",
+      "80.3%",
+      "82.0%",
+      "2",
+      "€ 779",
+      "0.3%",
+      "7.1%",
+      "€ 210"
+     ],
+     [
+      "Fressie Orange/Mango 1 liter",
+      "42,162",
+      "€ 17,018",
+      "€ 0.404",
+      "€ 0.137",
+      "97.4%",
+      "97.0%",
+      "91.2%",
+      "3",
+      "€ 532",
+      "0.1%",
+      "8.8%",
+      "€ 993"
+     ],
+     [
+      "Fressie Orange PET",
+      "118,084",
+      "€ 23,935",
+      "€ 0.203",
+      "€ 0.079",
+      "98.0%",
+      "97.5%",
+      "97.6%",
+      "4",
+      "€ 399",
+      "0.0%",
+      "8.2%",
+      "€ 1,201"
+     ],
+     [
+      "Fressie Orange/C-power PET",
+      "17,741",
+      "€ 5,229",
+      "€ 0.295",
+      "€ 0.155",
+      "83.6%",
+      "80.6%",
+      "83.0%",
+      "3",
+      "€ 1,259",
+      "-0.2%",
+      "5.5%",
+      "€ 137"
+     ],
+     [
+      "Fressie Orange/Mango PET",
+      "51,040",
+      "€ 11,756",
+      "€ 0.230",
+      "€ 0.093",
+      "97.1%",
+      "96.1%",
+      "98.5%",
+      "3",
+      "€ 557",
+      "-0.1%",
+      "8.0%",
+      "€ 561"
+     ]
+    ]
+   }
+  ],
+  "0|Sales|sales_customerproduct": [
+   {
+    "title": "Customer Product report",
+    "rows": [
+     [
+      {
+       "v": "",
+       "span": 2
+      },
+      "Demand per week (pieces)",
+      "Demand value per week",
+      "Sales price",
+      "Gross margin per week",
+      "Gross margin per piece",
+      "Attained shelf life (%)",
+      "Service level (pieces)",
+      "Service level (order lines)",
+      "OSA",
+      "Additional sales as a result of promotions (%)"
+     ],
+     [
+      "Food & Groceries"
+     ],
+     [
+      "LAND Market"
+     ],
+     [
+      "Dominick's"
+     ],
+     [
+      {
+       "v": "Fressie Orange 1 liter",
+       "span": 2
+      },
+      "42,637",
+      "€ 15,582",
+      "€ 0.37",
+      "€ 5,692",
+      "€ 0.1335",
+      "85.3%",
+      "93.8%",
+      "91.9%",
+      "87.1%",
+      "3.3%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/C-power 1 liter",
+       "span": 2
+      },
+      "7,182",
+      "€ 3,208",
+      "€ 0.45",
+      "€ 1,349",
+      "€ 0.1878",
+      "87.7%",
+      "83.9%",
+      "78.7%",
+      "80.8%",
+      "3.7%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/Mango 1 liter",
+       "span": 2
+      },
+      "26,777",
+      "€ 10,438",
+      "€ 0.39",
+      "€ 3,295",
+      "€ 0.1230",
+      "85.5%",
+      "97.2%",
+      "96.5%",
+      "91.4%",
+      "3.5%"
+     ],
+     [
+      {
+       "v": "Fressie Orange PET",
+       "span": 2
+      },
+      "35,873",
+      "€ 6,409",
+      "€ 0.18",
+      "€ 1,956",
+      "€ 0.0545",
+      "84.6%",
+      "97.5%",
+      "96.9%",
+      "96.6%",
+      "3.3%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/C-power PET",
+       "span": 2
+      },
+      "5,412",
+      "€ 1,406",
+      "€ 0.26",
+      "€ 649",
+      "€ 0.1199",
+      "87.4%",
+      "81.8%",
+      "80.6%",
+      "82.7%",
+      "3.4%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/Mango PET",
+       "span": 2
+      },
+      "15,539",
+      "€ 3,155",
+      "€ 0.20",
+      "€ 1,022",
+      "€ 0.0658",
+      "85.2%",
+      "97.1%",
+      "95.8%",
+      "97.5%",
+      "3.5%"
+     ],
+     [
+      {
+       "v": "Fressie Orange 1 liter",
+       "span": 2
+      },
+      "24,756",
+      "€ 9,927",
+      "€ 0.40",
+      "€ 4,185",
+      "€ 0.1690",
+      "85.1%",
+      "92.7%",
+      "92.3%",
+      "87.5%",
+      "2.9%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/C-power 1 liter",
+       "span": 2
+      },
+      "4,179",
+      "€ 2,048",
+      "€ 0.49",
+      "€ 966",
+      "€ 0.2313",
+      "87.0%",
+      "83.7%",
+      "81.8%",
+      "84.0%",
+      "3.6%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/Mango 1 liter",
+       "span": 2
+      },
+      "15,385",
+      "€ 6,580",
+      "€ 0.43",
+      "€ 2,476",
+      "€ 0.1609",
+      "85.1%",
+      "97.8%",
+      "97.5%",
+      "90.7%",
+      "3.3%"
+     ],
+     [
+      {
+       "v": "Fressie Orange PET",
+       "span": 2
+      },
+      "11,935",
+      "€ 2,340",
+      "€ 0.20",
+      "€ 858",
+      "€ 0.0719",
+      "83.8%",
+      "97.8%",
+      "97.6%",
+      "97.5%",
+      "3.5%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/C-power PET",
+       "span": 2
+      },
+      "1,818",
+      "€ 518",
+      "€ 0.29",
+      "€ 264",
+      "€ 0.1451",
+      "86.6%",
+      "83.8%",
+      "82.0%",
+      "84.2%",
+      "7.3%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/Mango PET",
+       "span": 2
+      },
+      "5,132",
+      "€ 1,143",
+      "€ 0.22",
+      "€ 439",
+      "€ 0.0855",
+      "84.5%",
+      "96.4%",
+      "95.5%",
+      "97.5%",
+      "3.7%"
+     ],
+     [
+      {
+       "v": "Fressie Orange PET",
+       "span": 2
+      },
+      "70,276",
+      "€ 15,187",
+      "€ 0.22",
+      "€ 6,464",
+      "€ 0.0920",
+      "85.1%",
+      "98.4%",
+      "97.9%",
+      "98.1%",
+      "1.8%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/C-power PET",
+       "span": 2
+      },
+      "10,512",
+      "€ 3,304",
+      "€ 0.31",
+      "€ 1,832",
+      "€ 0.1743",
+      "88.6%",
+      "84.4%",
+      "79.2%",
+      "83.0%",
+      "1.7%"
+     ],
+     [
+      {
+       "v": "Fressie Orange/Mango PET",
+       "span": 2
+      },
+      "30,370",
+      "€ 7,458",
+      "€ 0.25",
+      "€ 3,289",
+      "€ 0.1083",
+      "86.0%",
+      "97.2%",
+      "96.7%",
+      "99.2%",
+      "1.8%"
+     ]
+    ]
+   }
+  ],
+  "0|Sales|sales_productcustomer": [
+   {
+    "title": "Product Customer report",
+    "rows": [
+     [
+      "Product",
+      "Customer",
+      "Demand per week (pieces)",
+      "Demand value per week",
+      "Sales price",
+      "Gross margin per week",
+      "Gross margin per piece",
+      "Attained shelf life (%)",
+      "Service level (pieces)",
+      "Service level (order lines)",
+      "OSA",
+      "Additional sales as a result of promotions (%)"
+     ],
+     [
+      "Fressie Orange 1 liter",
+      "",
+      "67,394",
+      "€ 25,508",
+      "€ 0.38",
+      "€ 9,877",
+      "€ 0.1466",
+      "",
+      "93.4%",
+      "92.1%",
+      "87.2%",
+      ""
+     ],
+     [
+      "Fressie Orange/C-power 1 liter",
+      "",
+      "11,361",
+      "€ 5,256",
+      "€ 0.46",
+      "€ 2,315",
+      "€ 0.2038",
+      "",
+      "83.8%",
+      "80.3%",
+      "82.0%",
+      ""
+     ],
+     [
+      "Fressie Orange/Mango 1 liter",
+      "",
+      "42,162",
+      "€ 17,018",
+      "€ 0.40",
+      "€ 5,771",
+      "€ 0.1369",
+      "",
+      "97.4%",
+      "97.0%",
+      "91.2%",
+      ""
+     ],
+     [
+      "Fressie Orange PET",
+      "",
+      "118,084",
+      "€ 23,935",
+      "€ 0.20",
+      "€ 9,278",
+      "€ 0.0786",
+      "",
+      "98.0%",
+      "97.5%",
+      "97.6%",
+      ""
+     ],
+     [
+      "Fressie Orange/C-power PET",
+      "",
+      "17,741",
+      "€ 5,229",
+      "€ 0.29",
+      "€ 2,745",
+      "€ 0.1547",
+      "",
+      "83.6%",
+      "80.6%",
+      "83.0%",
+      ""
+     ],
+     [
+      "Fressie Orange/Mango PET",
+      "",
+      "51,040",
+      "€ 11,756",
+      "€ 0.23",
+      "€ 4,750",
+      "€ 0.0931",
+      "",
+      "97.1%",
+      "96.1%",
+      "98.5%",
+      ""
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "42,637",
+      "€ 15,582",
+      "€ 0.37",
+      "€ 5,692",
+      "€ 0.1335",
+      "85.3%",
+      "93.8%",
+      "91.9%",
+      "87.1%",
+      "3.3%"
+     ],
+     [
+      "",
+      "LAND Market",
+      "24,756",
+      "€ 9,927",
+      "€ 0.40",
+      "€ 4,185",
+      "€ 0.1690",
+      "85.1%",
+      "92.7%",
+      "92.3%",
+      "87.5%",
+      "2.9%"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "7,182",
+      "€ 3,208",
+      "€ 0.45",
+      "€ 1,349",
+      "€ 0.1878",
+      "87.7%",
+      "83.9%",
+      "78.7%",
+      "80.8%",
+      "3.7%"
+     ],
+     [
+      "",
+      "LAND Market",
+      "4,179",
+      "€ 2,048",
+      "€ 0.49",
+      "€ 966",
+      "€ 0.2313",
+      "87.0%",
+      "83.7%",
+      "81.8%",
+      "84.0%",
+      "3.6%"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "26,777",
+      "€ 10,438",
+      "€ 0.39",
+      "€ 3,295",
+      "€ 0.1230",
+      "85.5%",
+      "97.2%",
+      "96.5%",
+      "91.4%",
+      "3.5%"
+     ],
+     [
+      "",
+      "LAND Market",
+      "15,385",
+      "€ 6,580",
+      "€ 0.43",
+      "€ 2,476",
+      "€ 0.1609",
+      "85.1%",
+      "97.8%",
+      "97.5%",
+      "90.7%",
+      "3.3%"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "35,873",
+      "€ 6,409",
+      "€ 0.18",
+      "€ 1,956",
+      "€ 0.0545",
+      "84.6%",
+      "97.5%",
+      "96.9%",
+      "96.6%",
+      "3.3%"
+     ],
+     [
+      "",
+      "LAND Market",
+      "11,935",
+      "€ 2,340",
+      "€ 0.20",
+      "€ 858",
+      "€ 0.0719",
+      "83.8%",
+      "97.8%",
+      "97.6%",
+      "97.5%",
+      "3.5%"
+     ],
+     [
+      "",
+      "Dominick's",
+      "70,276",
+      "€ 15,187",
+      "€ 0.22",
+      "€ 6,464",
+      "€ 0.0920",
+      "85.1%",
+      "98.4%",
+      "97.9%",
+      "98.1%",
+      "1.8%"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "5,412",
+      "€ 1,406",
+      "€ 0.26",
+      "€ 649",
+      "€ 0.1199",
+      "87.4%",
+      "81.8%",
+      "80.6%",
+      "82.7%",
+      "3.4%"
+     ],
+     [
+      "",
+      "LAND Market",
+      "1,818",
+      "€ 518",
+      "€ 0.29",
+      "€ 264",
+      "€ 0.1451",
+      "86.6%",
+      "83.8%",
+      "82.0%",
+      "84.2%",
+      "7.3%"
+     ],
+     [
+      "",
+      "Dominick's",
+      "10,512",
+      "€ 3,304",
+      "€ 0.31",
+      "€ 1,832",
+      "€ 0.1743",
+      "88.6%",
+      "84.4%",
+      "79.2%",
+      "83.0%",
+      "1.7%"
+     ],
+     [
+      "",
+      "Food & Groceries",
+      "15,539",
+      "€ 3,155",
+      "€ 0.20",
+      "€ 1,022",
+      "€ 0.0658",
+      "85.2%",
+      "97.1%",
+      "95.8%",
+      "97.5%",
+      "3.5%"
+     ],
+     [
+      "",
+      "LAND Market",
+      "5,132",
+      "€ 1,143",
+      "€ 0.22",
+      "€ 439",
+      "€ 0.0855",
+      "84.5%",
+      "96.4%",
+      "95.5%",
+      "97.5%",
+      "3.7%"
+     ],
+     [
+      "",
+      "Dominick's",
+      "30,370",
+      "€ 7,458",
+      "€ 0.25",
+      "€ 3,289",
+      "€ 0.1083",
+      "86.0%",
+      "97.2%",
+      "96.7%",
+      "99.2%",
+      "1.8%"
+     ]
+    ]
+   }
+  ],
+  "0|SupplyChainManagement|scm_component": [
+   {
+    "title": "Component",
+    "rows": [
+     [
+      "Component",
+      "Delivery reliability (%)",
+      "Stock (pieces or liters)",
+      "Stock (weeks)",
+      "Stock value",
+      "Economic inventory of components (weeks)",
+      "Demand per week (pieces or liters)",
+      "Obsoletes (%)",
+      "Component availability (%)",
+      "Bias",
+      "Amount purchased (pieces or liters)",
+      "Order size"
+     ],
+     [
+      "Pack 1 liter",
+      "92.3%",
+      "564,440",
+      "4.3",
+      "€ 17,553",
+      "8.7",
+      "132,257",
+      "0.0%",
+      "99.5%",
+      "0.1%",
+      "3,559,348",
+      "619,636"
+     ],
+     [
+      "PET",
+      "84.1%",
+      "851,667",
+      "4.2",
+      "€ 46,566",
+      "7.7",
+      "204,297",
+      "0.0%",
+      "99.5%",
+      "-0.0%",
+      "5,631,948",
+      "951,612"
+     ],
+     [
+      "Orange",
+      "97.8%",
+      "160,757",
+      "4.5",
+      "€ 70,610",
+      "10.8",
+      "35,360",
+      "0.0%",
+      "99.3%",
+      "0.0%",
+      "931,265",
+      "172,581"
+     ],
+     [
+      "Mango",
+      "93.7%",
+      "14,089",
+      "4.4",
+      "€ 13,983",
+      "7.7",
+      "3,165",
+      "0.0%",
+      "100.0%",
+      "0.0%",
+      "82,276",
+      "15,497"
+     ],
+     [
+      "Vitamin C",
+      "81.5%",
+      "769",
+      "4.2",
+      "€ 364",
+      "18.4",
+      "184",
+      "0.0%",
+      "84.3%",
+      "0.2%",
+      "4,852",
+      "1,032"
+     ]
+    ]
+   }
+  ],
+  "0|SupplyChainManagement|scm_product": [
+   {
+    "title": "Product",
+    "rows": [
+     [
+      "Warehouse",
+      "Product",
+      "Demand per week (pieces)",
+      "Service level (pieces)",
+      "Service level (order lines)",
+      "Stock (weeks)",
+      "Stock value",
+      "Economic inventory of products (weeks)",
+      "Floating Stock value",
+      "Obsoletes (%)",
+      "Obsoletes value per week",
+      "Forecast error (MAPE)",
+      "Bias",
+      "Production batches",
+      "Start up productivity loss per batch (value)",
+      "Rejects (value)",
+      "Production plan adherence (%)"
+     ],
+     [
+      "DC Netherlands"
+     ],
+     [
+      "",
+      "Fressie Orange 1 liter",
+      "67,394",
+      "93.4%",
+      "92.1%",
+      "3.2",
+      "€ 49,522",
+      "7.5",
+      "€ 0",
+      "8.4%",
+      "€ 1,319",
+      "49.0%",
+      "0.0%",
+      "13.0",
+      "€ 934",
+      "€ 646",
+      "82.9%"
+     ],
+     [
+      "",
+      "Fressie Orange/C-power 1 liter",
+      "11,361",
+      "83.8%",
+      "80.3%",
+      "2.5",
+      "€ 7,466",
+      "7.5",
+      "€ 0",
+      "7.1%",
+      "€ 210",
+      "60.6%",
+      "0.3%",
+      "13.0",
+      "€ 1,043",
+      "€ 1,021",
+      "69.8%"
+     ],
+     [
+      "",
+      "Fressie Orange/Mango 1 liter",
+      "42,162",
+      "97.4%",
+      "97.0%",
+      "3.3",
+      "€ 37,556",
+      "7.5",
+      "€ 0",
+      "8.8%",
+      "€ 993",
+      "50.9%",
+      "0.1%",
+      "13.0",
+      "€ 1,075",
+      "€ 1,424",
+      "82.9%"
+     ],
+     [
+      "",
+      "Fressie Orange PET",
+      "118,084",
+      "98.0%",
+      "97.5%",
+      "3.4",
+      "€ 49,505",
+      "7.6",
+      "€ 0",
+      "8.2%",
+      "€ 1,201",
+      "47.1%",
+      "0.0%",
+      "13.0",
+      "€ 1,663",
+      "€ 1,056",
+      "83.3%"
+     ],
+     [
+      "",
+      "Fressie Orange/C-power PET",
+      "17,741",
+      "83.6%",
+      "80.6%",
+      "2.3",
+      "€ 5,761",
+      "7.4",
+      "€ 0",
+      "5.5%",
+      "€ 137",
+      "58.4%",
+      "-0.2%",
+      "13.0",
+      "€ 1,876",
+      "€ 1,829",
+      "70.1%"
+     ],
+     [
+      "",
+      "Fressie Orange/Mango PET",
+      "51,040",
+      "97.1%",
+      "96.1%",
+      "3.2",
+      "€ 22,539",
+      "7.5",
+      "€ 0",
+      "8.0%",
+      "€ 561",
+      "51.7%",
+      "-0.1%",
+      "13.0",
+      "€ 1,843",
+      "€ 2,336",
+      "83.3%"
+     ]
+    ]
+   }
+  ]
+ },
+ "dash": {
+  "Purchasing": [
+   {
+    "t": "ROI (%)",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      -0.0667
+     ],
+     [
+      -1,
+      null,
+      -0.0768
+     ],
+     [
+      0,
+      null,
+      -0.0768
+     ]
+    ]
+   },
+   {
+    "t": "Rejection components (%)",
+    "f": "p1",
+    "e": "Leverancier",
+    "d": [
+     [
+      -2,
+      "463793",
+      0.0356
+     ],
+     [
+      -2,
+      "463774",
+      0.0579
+     ],
+     [
+      -2,
+      null,
+      0.0293
+     ],
+     [
+      -2,
+      "463786",
+      0.0111
+     ],
+     [
+      -2,
+      "463777",
+      0.0119
+     ],
+     [
+      -2,
+      "463780",
+      0.0049
+     ],
+     [
+      -1,
+      "463793",
+      0.0363
+     ],
+     [
+      -1,
+      "463774",
+      0.0589
+     ],
+     [
+      -1,
+      null,
+      0.0294
+     ],
+     [
+      -1,
+      "463786",
+      0.0103
+     ],
+     [
+      -1,
+      "463777",
+      0.012
+     ],
+     [
+      -1,
+      "463780",
+      0.0049
+     ],
+     [
+      0,
+      "463793",
+      0.0363
+     ],
+     [
+      0,
+      "463774",
+      0.0589
+     ],
+     [
+      0,
+      null,
+      0.0294
+     ],
+     [
+      0,
+      "463786",
+      0.0103
+     ],
+     [
+      0,
+      "463777",
+      0.012
+     ],
+     [
+      0,
+      "463780",
+      0.0049
+     ]
+    ]
+   },
+   {
+    "t": "Raw material costs (%)",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      0.3876
+     ],
+     [
+      -1,
+      null,
+      0.3953
+     ],
+     [
+      0,
+      null,
+      0.3953
+     ]
+    ]
+   },
+   {
+    "t": "Delivery reliability suppliers (%)",
+    "f": "p1",
+    "e": "Leverancier",
+    "d": [
+     [
+      -2,
+      "463777",
+      0.8207
+     ],
+     [
+      -2,
+      "463780",
+      0.9376
+     ],
+     [
+      -2,
+      "463793",
+      0.9264
+     ],
+     [
+      -2,
+      "463774",
+      0.8382
+     ],
+     [
+      -2,
+      "463786",
+      0.9833
+     ],
+     [
+      -2,
+      null,
+      0.923
+     ],
+     [
+      -1,
+      "463777",
+      0.8146
+     ],
+     [
+      -1,
+      "463780",
+      0.9369
+     ],
+     [
+      -1,
+      "463793",
+      0.923
+     ],
+     [
+      -1,
+      "463774",
+      0.8411
+     ],
+     [
+      -1,
+      "463786",
+      0.9776
+     ],
+     [
+      -1,
+      null,
+      0.9208
+     ],
+     [
+      0,
+      "463777",
+      0.8146
+     ],
+     [
+      0,
+      "463780",
+      0.9369
+     ],
+     [
+      0,
+      "463793",
+      0.923
+     ],
+     [
+      0,
+      "463774",
+      0.8411
+     ],
+     [
+      0,
+      "463786",
+      0.9776
+     ],
+     [
+      0,
+      null,
+      0.9208
+     ]
+    ]
+   }
+  ],
+  "Operations": [
+   {
+    "t": "ROI (%)",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      -0.0667
+     ],
+     [
+      -1,
+      null,
+      -0.0768
+     ],
+     [
+      0,
+      null,
+      -0.0768
+     ]
+    ]
+   },
+   {
+    "t": "Cube utilization raw materials warehouse",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      0.9543
+     ],
+     [
+      -1,
+      null,
+      0.9339
+     ],
+     [
+      0,
+      null,
+      0.9339
+     ]
+    ]
+   },
+   {
+    "t": "Cube utilization finished goods warehouse",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      0.7287
+     ],
+     [
+      -1,
+      null,
+      0.7074
+     ],
+     [
+      0,
+      null,
+      0.7074
+     ]
+    ]
+   },
+   {
+    "t": "Production plan adherence",
+    "f": "p1",
+    "e": "Afvullijn",
+    "d": [
+     [
+      -2,
+      null,
+      0.7828
+     ],
+     [
+      -2,
+      "142703",
+      0.7828
+     ],
+     [
+      -1,
+      null,
+      0.7872
+     ],
+     [
+      -1,
+      "142703",
+      0.7872
+     ],
+     [
+      0,
+      null,
+      0.7872
+     ],
+     [
+      0,
+      "142703",
+      0.7872
+     ]
+    ]
+   }
+  ],
+  "Sales": [
+   {
+    "t": "ROI (%)",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      -0.0667
+     ],
+     [
+      -1,
+      null,
+      -0.0768
+     ],
+     [
+      0,
+      null,
+      -0.0768
+     ]
+    ]
+   },
+   {
+    "t": "Gross margin (customer)",
+    "f": "c0",
+    "e": "Klant",
+    "d": [
+     [
+      -2,
+      "69816",
+      407784.4162
+     ],
+     [
+      -2,
+      "69817",
+      242032.337
+     ],
+     [
+      -2,
+      null,
+      956074.5481
+     ],
+     [
+      -2,
+      "69818",
+      306257.7949
+     ],
+     [
+      -1,
+      "69816",
+      363037.2861
+     ],
+     [
+      -1,
+      "69817",
+      238893.0972
+     ],
+     [
+      -1,
+      null,
+      903148.1457
+     ],
+     [
+      -1,
+      "69818",
+      301217.7623
+     ],
+     [
+      0,
+      "69816",
+      363037.2861
+     ],
+     [
+      0,
+      "69817",
+      238893.0972
+     ],
+     [
+      0,
+      null,
+      903148.1457
+     ],
+     [
+      0,
+      "69818",
+      301217.7623
+     ]
+    ]
+   },
+   {
+    "t": "Obsolete products (%)",
+    "f": "p1",
+    "e": "GereedProduct",
+    "d": [
+     [
+      -2,
+      "225341",
+      0.0596
+     ],
+     [
+      -2,
+      "225330",
+      0.084
+     ],
+     [
+      -2,
+      "225331",
+      0.1057
+     ],
+     [
+      -2,
+      null,
+      0.0914
+     ],
+     [
+      -2,
+      "225329",
+      0.0991
+     ],
+     [
+      -2,
+      "225342",
+      0.0864
+     ],
+     [
+      -2,
+      "225340",
+      0.0837
+     ],
+     [
+      -1,
+      "225341",
+      0.055
+     ],
+     [
+      -1,
+      "225330",
+      0.0714
+     ],
+     [
+      -1,
+      "225331",
+      0.0883
+     ],
+     [
+      -1,
+      null,
+      0.0814
+     ],
+     [
+      -1,
+      "225329",
+      0.0844
+     ],
+     [
+      -1,
+      "225342",
+      0.08
+     ],
+     [
+      -1,
+      "225340",
+      0.0819
+     ],
+     [
+      0,
+      "225341",
+      0.055
+     ],
+     [
+      0,
+      "225330",
+      0.0714
+     ],
+     [
+      0,
+      "225331",
+      0.0883
+     ],
+     [
+      0,
+      null,
+      0.0814
+     ],
+     [
+      0,
+      "225329",
+      0.0844
+     ],
+     [
+      0,
+      "225342",
+      0.08
+     ],
+     [
+      0,
+      "225340",
+      0.0819
+     ]
+    ]
+   },
+   {
+    "t": "Service level outbound order lines",
+    "f": "p1",
+    "e": "Klant",
+    "d": [
+     [
+      -2,
+      "69817",
+      0.9244
+     ],
+     [
+      -2,
+      null,
+      0.9245
+     ],
+     [
+      -2,
+      "69818",
+      0.9365
+     ],
+     [
+      -2,
+      "69816",
+      0.9181
+     ],
+     [
+      -1,
+      "69817",
+      0.9205
+     ],
+     [
+      -1,
+      null,
+      0.9195
+     ],
+     [
+      -1,
+      "69818",
+      0.9319
+     ],
+     [
+      -1,
+      "69816",
+      0.9117
+     ],
+     [
+      0,
+      "69817",
+      0.9205
+     ],
+     [
+      0,
+      null,
+      0.9195
+     ],
+     [
+      0,
+      "69818",
+      0.9319
+     ],
+     [
+      0,
+      "69816",
+      0.9117
+     ]
+    ]
+   }
+  ],
+  "SupplyChainManagement": [
+   {
+    "t": "ROI (%)",
+    "f": "p1",
+    "e": null,
+    "d": [
+     [
+      -2,
+      null,
+      -0.0667
+     ],
+     [
+      -1,
+      null,
+      -0.0768
+     ],
+     [
+      0,
+      null,
+      -0.0768
+     ]
+    ]
+   },
+   {
+    "t": "Availability components (%)",
+    "f": "p1",
+    "e": "Component",
+    "d": [
+     [
+      -2,
+      "175128",
+      0.9934
+     ],
+     [
+      -2,
+      "175129",
+      0.9993
+     ],
+     [
+      -2,
+      "175120",
+      0.9953
+     ],
+     [
+      -2,
+      "175123",
+      0.9972
+     ],
+     [
+      -2,
+      "175132",
+      0.8508
+     ],
+     [
+      -2,
+      null,
+      0.9951
+     ],
+     [
+      -1,
+      "175128",
+      0.9929
+     ],
+     [
+      -1,
+      "175129",
+      1
+     ],
+     [
+      -1,
+      "175120",
+      0.9953
+     ],
+     [
+      -1,
+      "175123",
+      0.9949
+     ],
+     [
+      -1,
+      "175132",
+      0.8426
+     ],
+     [
+      -1,
+      null,
+      0.9941
+     ],
+     [
+      0,
+      "175128",
+      0.9929
+     ],
+     [
+      0,
+      "175129",
+      1
+     ],
+     [
+      0,
+      "175120",
+      0.9953
+     ],
+     [
+      0,
+      "175123",
+      0.9949
+     ],
+     [
+      0,
+      "175132",
+      0.8426
+     ],
+     [
+      0,
+      null,
+      0.9941
+     ]
+    ]
+   },
+   {
+    "t": "Stock components (weeks)",
+    "f": "n1",
+    "e": "Component",
+    "d": [
+     [
+      -2,
+      "175132",
+      4.4362
+     ],
+     [
+      -2,
+      "175128",
+      4.7188
+     ],
+     [
+      -2,
+      "175129",
+      4.6035
+     ],
+     [
+      -2,
+      "175120",
+      4.3684
+     ],
+     [
+      -2,
+      "175123",
+      4.2283
+     ],
+     [
+      -2,
+      null,
+      4.4998
+     ],
+     [
+      -1,
+      "175132",
+      4.1756
+     ],
+     [
+      -1,
+      "175128",
+      4.53
+     ],
+     [
+      -1,
+      "175129",
+      4.447
+     ],
+     [
+      -1,
+      "175120",
+      4.2535
+     ],
+     [
+      -1,
+      "175123",
+      4.1547
+     ],
+     [
+      -1,
+      null,
+      4.3613
+     ],
+     [
+      0,
+      "175132",
+      4.1756
+     ],
+     [
+      0,
+      "175128",
+      4.53
+     ],
+     [
+      0,
+      "175129",
+      4.447
+     ],
+     [
+      0,
+      "175120",
+      4.2535
+     ],
+     [
+      0,
+      "175123",
+      4.1547
+     ],
+     [
+      0,
+      null,
+      4.3613
+     ]
+    ]
+   },
+   {
+    "t": "Stock products (weeks)",
+    "f": "n1",
+    "e": "GereedProduct",
+    "d": [
+     [
+      -2,
+      "225329",
+      3.2938
+     ],
+     [
+      -2,
+      "225330",
+      2.6886
+     ],
+     [
+      -2,
+      null,
+      3.2671
+     ],
+     [
+      -2,
+      "225341",
+      2.4081
+     ],
+     [
+      -2,
+      "225342",
+      3.2826
+     ],
+     [
+      -2,
+      "225331",
+      3.505
+     ],
+     [
+      -2,
+      "225340",
+      3.3757
+     ],
+     [
+      -1,
+      "225329",
+      3.1682
+     ],
+     [
+      -1,
+      "225330",
+      2.5391
+     ],
+     [
+      -1,
+      null,
+      3.1767
+     ],
+     [
+      -1,
+      "225341",
+      2.3195
+     ],
+     [
+      -1,
+      "225342",
+      3.2172
+     ],
+     [
+      -1,
+      "225331",
+      3.339
+     ],
+     [
+      -1,
+      "225340",
+      3.3775
+     ],
+     [
+      0,
+      "225329",
+      3.1682
+     ],
+     [
+      0,
+      "225330",
+      2.5391
+     ],
+     [
+      0,
+      null,
+      3.1767
+     ],
+     [
+      0,
+      "225341",
+      2.3195
+     ],
+     [
+      0,
+      "225342",
+      3.2172
+     ],
+     [
+      0,
+      "225331",
+      3.339
+     ],
+     [
+      0,
+      "225340",
+      3.3775
+     ]
+    ]
+   }
+  ]
+ },
+ "tips": {
+  "purchasing_specificaties": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Quality High Middle Poor High",
+   "t": "The quality of the supplied materials"
+  },
+  "leverancier_certificering": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Certification",
+   "t": "A certified supplier has greater control over his production process, which means he is more reliable with regard to fulfilling an agreement."
+  },
+  "leverancier_leverbetrouwbaarheid": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Agreed delivery reliability (%) ! 95.0%",
+   "t": "The agreed percentage of the number of units that will be delivered on, or before, the promised time. Whether the supplier will fulfill this agreed percentage depends on his free capacity and certification."
+  },
+  "magazijningaandinput_aantalpalletplaatseningaand": {
+   "p": "/v10/MyCompany/Operations/IngaandMagazijn",
+   "l": "Number of pallet locations ! ! 900",
+   "t": "The total number of pallet locations in the raw materials warehouse. The minimum number of pallet locations is 0, the maximum number is 10000."
+  },
+  "leverancierinput_moq": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Trade unit Pallet FTL Pallet",
+   "t": "The unit to which individual orders are rounded to"
+  },
+  "leverancierinput_contractindex": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Contract index 0.9940",
+   "t": "The contract index determines the extent of the premium or discount agreed to relative to the basic purchase price. An index less than 1 is a discount while an index greater than 1 is a premium."
+  },
+  "afvullijninput_snelheidverhogen": {
+   "p": "/v10/MyCompany/Operations/Afvullen",
+   "l": "Increase speed",
+   "t": "Increase the speed of the bottling line so that it can turn out more finished goods per hour"
+  },
+  "afvullijninput_smedactie": {
+   "p": "/v10/MyCompany/Operations/Afvullen",
+   "l": "SMED action",
+   "t": "Reduce changeover times by conducting a SMED action (single minute exchange of die)"
+  },
+  "magazijningaandinput_aantalmedewerkers": {
+   "p": "/v10/MyCompany/Operations/IngaandMagazijn",
+   "l": "Number of permanent employees (FTE) ! ! 5",
+   "t": "Number of workers (FTE) permanently employed in the raw material warehouse. The minimum number of employees is 0, the maximum number is 50."
+  },
+  "leverancierinput_betalingstermijn": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Payment term (weeks) ! 4",
+   "t": "The term within which a payment should be made (weeks). The minimum payment term is 1 week, the maximum is 8 weeks."
+  },
+  "leverancier_levertijd": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Lead time (days) 15",
+   "t": "The number of days between ordering and delivery"
+  },
+  "klantinput_contractindexnietvers": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Contract index 1.0085",
+   "t": "The contract index determines how much premium or discount is given relative to the basic sales price. An index smaller than 1 is a discount; an index greater than 1 is a premium."
+  },
+  "leverancier_vrijecapaciteitnetto": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Free capacity 18%",
+   "t": "The supplier's available capacity, including a possible contract with The Fresh Connection. A low free capacity will negatively influence the reliability of the supplier."
+  },
+  "magazijnuitgaandinput_aantalmedewerkers": {
+   "p": "/v10/MyCompany/Operations/OutboundWarehouse/Index",
+   "l": "Number of permanent employees (FTE) 4 !",
+   "t": "The number of workers (FTE) permanently employed in the finished goods warehouse. The minimum number of employees is 0, the maximum number is 50."
+  },
+  "klantinput_servicegraadtypenietvers": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Service level type Units Order lines Orders Order lines",
+   "t": "The unit on which the service level agreement is based: orders, order lines or items."
+  },
+  "klantinput_houdbaarheidnietvers": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Shelf life (%) ! 75.0",
+   "t": "Percentage of the total shelf life of the finished product that the customer requests. The minimum requested shelf life is 40%, the maximum is 85%."
+  },
+  "magazijnuitgaandinput_palletplaatsenongekoeld": {
+   "p": "/v10/MyCompany/Operations/OutboundWarehouse/Index",
+   "l": "Number of pallet locations 1500 !",
+   "t": "The total number of pallet locations in the finished goods warehouse."
+  },
+  "klantinput_servicegraadvaluenietvers": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Service level (%) ! 95.0",
+   "t": "Agreed percentage of satisfying demanded items, order lines or orders through inventory or by the current production schedule in time to satisfy the customers’ requested delivery dates and quantities. The minimum service level is 75%, the maximum is 100%."
+  },
+  "klantinput_moqtype": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Trade unit Box Pallet layer Pallet Pallet layer",
+   "t": "Unit in which the customer places orders"
+  },
+  "klantinput_betalingstermijn": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Payment term (weeks) ! 4",
+   "t": "Term within which a payment should be received from a customer (weeks). The minimum payment term is one week, the maximum is 8 weeks."
+  },
+  "leverancierinput_leverwindow": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Delivery window 4 hours 1 day 2 days 1 week 4 hours",
+   "t": "The margin for the promised delivery time"
+  },
+  "leverancier_country": {
+   "p": "/v10/MyCompany/Purchasing/Supplier/Index",
+   "l": "Country France",
+   "t": "The country where the supplier is located"
+  },
+  "klantinput_orderwindow": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Order deadline 12.00 pm 14.00 pm 17.00 pm 20.00 pm 20.00 pm",
+   "t": "The latest hour a customer is allowed to place an order"
+  },
+  "klantinput_promotiedruk": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Promotional pressure None Light Middle Heavy Middle",
+   "t": "Indication of the number and the weight of a customer's promotional campaign"
+  },
+  "algemeeninput_schaarsteregelklanten": {
+   "p": "/v10/MyCompany/Sales/Algemeen",
+   "l": "Shortage rule Customer priority Proportional First come, fir",
+   "t": "Determines how, in case of a shortage of products, the customer orders are handled"
+  },
+  "klantinput_promotiehorizon": {
+   "p": "/v10/MyCompany/Sales/Customer/Index",
+   "l": "Promotion horizon Short Middle Long Short",
+   "t": "Indication of the number of weeks prior a customer informs you of an upcoming promotional campaign. A short horizon corresponds to 1 week, a medium horizon to 4 weeks and a long horizon to 7 weeks, respectively."
+  },
+  "gereedproductinput_parameterwaarde": {
+   "p": "/v10/MyCompany/SupplyChainManagement/StockManagement/Index",
+   "l": "Safety stock (weeks)",
+   "t": "In general, a quantity of stock planned to be in inventory to protect against fluctuations in demand or supply. Safety stock is expressed in weeks of forecast. The minimum safety stock is 0 weeks, the maximum is 8 weeks."
+  },
+  "gereedproductinput_productiefrequentie": {
+   "p": "/v10/MyCompany/SupplyChainManagement/StockManagement/Index",
+   "l": "Production interval (days)",
+   "t": "Number of working days between subsequent production runs of a product. The minimum production interval is one working day, the maximum is twenty-five working days."
+  },
+  "componentinput_batchsize": {
+   "p": "/v10/MyCompany/SupplyChainManagement/VoorraadBesturingComponenten",
+   "l": "Lot size (weeks)",
+   "t": "The minimum quantity that is ordered when stock replenishment is necessary, expressed in demand in weeks. The minimum lot size is 0 weeks, the maximum is 26 weeks."
+  },
+  "algemeeninput_fixedperiodproductie": {
+   "p": "/v10/MyCompany/SupplyChainManagement/ProductieBesturing",
+   "l": "Frozen period of production (weeks) 3 ! !",
+   "t": "Period of time (in weeks) for which the production planning is frozen. The minimum frozen period of production is 1 week, the maximum is 6 weeks."
+  },
+  "componentinput_bestelparameterwaarde": {
+   "p": "/v10/MyCompany/SupplyChainManagement/VoorraadBesturingComponenten",
+   "l": "Safety stock (weeks)",
+   "t": "In general, a quantity of stock planned to be in inventory to protect against fluctuations in demand or supply. Safety stock is expressed in weeks of forecast. The minimum safety stock is 0 weeks, the maximum is 8 weeks."
+  },
+  "afvullijninput_capaciteit": {
+   "p": "/v10/MyCompany/Operations/Afvullen",
+   "l": "Number of shifts 1 2 3 4 5 2",
+   "t": "The number of shifts at the bottling line"
+  }
+ }
+}
