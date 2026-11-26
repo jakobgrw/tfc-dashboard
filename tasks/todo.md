@@ -8,16 +8,17 @@
 
 ## Phase 1: Fundament
 
-### - [ ] T1: Nuxt-Grundgerüst mit Qualitätswerkzeugen und ENV-Prüfung
+### - [x] T1: Nuxt-Grundgerüst mit Qualitätswerkzeugen und ENV-Prüfung
 **Beschreibung:** Nuxt 4, Vue 3, TS strict, Nuxt UI, ESLint, Vitest (mit Coverage) und Playwright einrichten. Die Scripts aus Spec 5 anlegen. `server/utils/env.ts` prüft alle Pflichtvariablen mit Zod und bricht beim Start mit einer klaren Meldung ab. Dazu `.env.example` (inkl. `ANALYSIS_MAX_RUNS_PER_DAY`), `.gitignore`, `app/locales/de.ts` und eine leere Startseite. Das Fixture zieht nach `tests/fixtures/raw/round-0.raw.json` um.
 **Akzeptanzkriterien:**
-- [ ] `pnpm dev` zeigt eine Seite. `pnpm lint`, `pnpm typecheck` und `pnpm test` laufen grün.
-- [ ] Fehlt z. B. `SESSION_SECRET` oder ist es kürzer als 32 Zeichen, startet der Server nicht und nennt die Variable.
-- [ ] `.env` ist in `.gitignore`.
+- [x] `pnpm dev` zeigt eine Seite. `pnpm lint`, `pnpm typecheck` und `pnpm test` laufen grün.
+- [x] Fehlt z. B. `SESSION_SECRET` oder ist es kürzer als 32 Zeichen, startet der Server nicht und nennt die Variable.
+- [x] `.env` ist in `.gitignore`.
 **Verifikation:** Unit-Test für `env.ts` (fehlend, zu kurz, gültig). Manuell `pnpm dev` ohne und mit `.env` starten.
 **Abhängigkeiten:** keine
 **Dateien:** `package.json`, `nuxt.config.ts`, `eslint.config.mjs`, `vitest.config.ts`, `server/utils/env.ts`, `.env.example`, `tests/unit/env.test.ts`
 **Größe:** M
+**Notiz:** Nuxt 4.7 bringt vue-router 5 mit, `vue`/`vue-router` deshalb nicht selbst festlegen (sonst SSR-Fehler `__VUE_OPTIONS_API__`). E2E nutzt optional `PLAYWRIGHT_CHROMIUM_PATH`.
 
 ### - [ ] T2: Docker Compose, Postgres, Drizzle und Auto-Migration
 **Beschreibung:** Multi-Stage-`Dockerfile` (node:22-alpine, Nutzer ohne Root-Rechte), `docker-compose.yml` mit `app`, `db` (postgres:17-alpine, Healthcheck) und `mailpit` im Profil `dev`. Drizzle-Konfiguration, leeres Schema, `pnpm db:migrate`, Migration beim App-Start (Nitro-Plugin). Health-Route `GET /api/health` (prüft DB).
