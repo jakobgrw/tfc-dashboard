@@ -94,32 +94,33 @@
 
 ## Phase 3: Rundendaten
 
-### - [ ] T7: Zod-Schema v1, JSON Schema und Zahl-Parser
-**Beschreibung:** `shared/round-schema.ts` nach Spec 8.2 (Einheiten, `kind`, unbekannte Felder erlaubt, `warnings[]`, `teamId`). Daraus abgeleitete Typen. Route `GET /schema/tfc-round.v1.json`. `shared/parse-number.ts`: `€ 1,319` → 1319, `93.4%` → 0.934, `-0.0%` → −0, `67,394` → 67394, leer → null. `snake_case`-Key-Generator.
+### - [ ] T7: Zod-Schemas (v1 und Rohformat), JSON Schema und Zahl-Parser
+**Beschreibung:** `shared/round-schema.ts` nach Spec 8.2 (Einheiten, `kind`, unbekannte Felder erlaubt, `warnings[]`, `teamId`; Verlaufspunkte dürfen `round` −2 und −1 haben). `shared/raw-schema.ts` für das Rohformat aus Claude Desktop (`fin`, `rep`, `dash`, `dec0`, `dec1`, `tips`, optional Entity-IDs). Daraus abgeleitete Typen. Route `GET /schema/tfc-round.v1.json`. `shared/parse-number.ts`: `€ 1,319` → 1319, `93.4%` → 0.934, `-0.0%` → −0, `67,394` → 67394, leer → null. `snake_case`-Key-Generator.
 **Akzeptanzkriterien:**
 - [ ] `schemaVersion: 2` oder fehlendes `round` ergibt einen Fehler mit Feldpfad (z. B. `round: Required`).
 - [ ] Der Zahl-Parser besteht eine Tabelle mit allen Formaten aus dem Rohdump.
 - [ ] Das JSON Schema ist erreichbar und entspricht dem Zod-Schema.
+- [ ] Der vorhandene Claude-Desktop-Dump besteht das Rohformat-Schema.
 **Verifikation:** Unit-Tests (≥ 80 % Abdeckung für `shared/`).
 **Abhängigkeiten:** T1
-**Dateien:** `shared/round-schema.ts`, `shared/parse-number.ts`, `server/routes/schema/tfc-round.v1.json.get.ts`, `tests/unit/round-schema.test.ts`, `tests/unit/parse-number.test.ts`
+**Dateien:** `shared/round-schema.ts`, `shared/raw-schema.ts`, `shared/parse-number.ts`, `server/routes/schema/tfc-round.v1.json.get.ts`, `tests/unit/round-schema.test.ts`, `tests/unit/parse-number.test.ts`
 **Größe:** M
 
-### - [ ] T8: normalize (Rohstruktur → v1) und v1-Fixture
-**Beschreibung:** `bookmarklet/src/normalize.ts` (rein, ohne DOM) wandelt die Rohstruktur in v1 um: Finanz-Hierarchie aus Level, Berichte mit Dimensionen und Gruppenzeilen, KPIs aus `dash`, Entscheidungen aus `dec0`/`dec1` mit `kind`, `editable`, `locked` und Grenzen aus Tooltips. Fehlende IDs und Hierarchien werden zu `warnings[]`. Ein Skript erzeugt daraus `tests/fixtures/round-0.json`.
+### - [ ] T8: normalize (Rohformat → v1) und v1-Fixture
+**Beschreibung:** `shared/import/normalize.ts` (rein, ohne DOM, läuft beim Upload auf dem Server und im lokalen Skript) wandelt die Rohstruktur in v1 um: Finanz-Hierarchie aus Level, Berichte mit Dimensionen und Gruppenzeilen, KPIs aus `dash`, Entscheidungen aus `dec0`/`dec1` mit `kind`, `editable`, `locked` und Grenzen aus Tooltips. Fehlende IDs und Hierarchien werden zu `warnings[]`. Ein Skript erzeugt daraus `tests/fixtures/round-0.json`.
 **Akzeptanzkriterien:**
 - [ ] Das erzeugte Fixture besteht das Schema aus T7. Es enthält 10 Berichte, die Finanzen (65 Datenzeilen, siehe Q5) und 4 KPI-Dashboards.
 - [ ] Stichproben stimmen: Fressie Orange 1 liter Demand per week 67394, Service level (pieces) 0.934. ROI −0.0768. Bonus or penalties −322708.
 - [ ] „Safety stock (weeks)“ hat `min 0`/`max 8` aus dem Tooltip. Readonly-Felder sind `editable: false`.
 **Verifikation:** Unit-Tests gegen den Rohdump (≥ 90 % Abdeckung für `normalize`).
 **Abhängigkeiten:** T7
-**Dateien:** `bookmarklet/src/normalize.ts`, `bookmarklet/src/tooltip-constraints.ts`, `scripts/build-fixture.ts`, `tests/unit/normalize.test.ts`, `tests/fixtures/round-0.json`
+**Dateien:** `shared/import/normalize.ts`, `shared/import/tooltip-constraints.ts`, `scripts/build-fixture.ts`, `tests/unit/normalize.test.ts`, `tests/fixtures/round-0.json`
 **Größe:** M
 
 ### - [ ] T9: Upload mit Vorschau und Versionierung
-**Beschreibung:** Tabellen `rounds` und `round_versions` (Original als `jsonb`, Uploader, Zeitpunkt, aktiv). `POST /api/rounds/preview` (validieren, Zusammenfassung zurückgeben), `POST /api/rounds` (speichern, neue Version bei vorhandener Runde, `open` kann durch `played` ersetzt werden), Versionsliste, aktiv setzen, löschen. Seite `/settings/rounds` mit Drag & Drop und Größenlimit.
+**Beschreibung:** Tabellen `rounds` und `round_versions` (Originaldatei und normalisiertes v1 als `jsonb`, Quellformat, Uploader, Zeitpunkt, aktiv). Der Upload erkennt das Format (v1 oder Rohformat) und wandelt Rohdateien mit `normalize` um. `POST /api/rounds/preview` (validieren, Zusammenfassung zurückgeben), `POST /api/rounds` (speichern, neue Version bei vorhandener Runde, `open` kann durch `played` ersetzt werden), Versionsliste, aktiv setzen, löschen. Seite `/settings/rounds` mit Drag & Drop und Größenlimit.
 **Akzeptanzkriterien:**
-- [ ] Das Fixture lässt sich hochladen. Die Vorschau zeigt Runde 0, Team 6, `played`, 10 Berichte und die Anzahl der Entscheidungen und Warnungen.
+- [ ] Sowohl das v1-Fixture als auch der rohe Claude-Desktop-Dump lassen sich hochladen. Die Vorschau zeigt Runde 0, Team 6, `played`, 10 Berichte, die Anzahl der Entscheidungen und die Warnungen (z. B. fehlende IDs).
 - [ ] Der zweite Upload derselben Runde erzeugt Version 2. Version 1 ist sichtbar und wieder aktivierbar.
 - [ ] Eine Datei über `UPLOAD_MAX_MB` oder als `member` wird abgelehnt (413 bzw. 403).
 **Verifikation:** Integrationstests. Manuell Upload im Browser.
@@ -145,29 +146,29 @@
 
 ---
 
-## Phase 4: Bookmarklet (blockiert, bis Q1 geklärt ist)
+## Phase 4: Export aus dem Spiel (Form des Skripts offen: Q7)
 
-### - [ ] T11: extract (HTML → Rohstruktur) gegen gespeicherte Spielseiten
-**Beschreibung:** `bookmarklet/src/extract/*`: Berichte (`report-table` inkl. Zeilen-CSS-Klassen für die Kunde/Produkt-Hierarchie), KPI-Skripte (`createKpiChart`), Finanzen (Ebenen über CSS-Klassen), Entscheidungsformulare (`fieldset`/`legend`/`.form-row`, `data-entity-id`), Tooltips, Fehlerseite „blob does not exist“ → `status: open`. Unbekannte Strukturen landen in `warnings[]` statt einen Abbruch auszulösen.
+### - [ ] T11: Anleitung und Prompt für Claude Desktop
+**Beschreibung:** Fester Prompt, mit dem Claude Desktop im eingeloggten Spiel das Rohformat immer gleich erzeugt: alle Endpunkte aus Spec 8.1, zusätzlich `data-entity-id` der Objekte und die Kunde→Produkt-Zuordnung in `sales_customerproduct`/`sales_productcustomer`. Seite `/settings/export` mit Anleitung, Prompt zum Kopieren und Link auf das Rohformat-Schema.
 **Akzeptanzkriterien:**
-- [ ] extract + normalize liefern für die HTML-Fixtures dieselben Werte wie `tests/fixtures/round-0.json`, ergänzt um Entity-IDs.
-- [ ] In `sales_customerproduct` hat jede Zeile `customer` und `product`. Die Summe je Produkt entspricht `sales_product` (± 3 Stück).
-- [ ] Abdeckung ≥ 90 % für `bookmarklet/src/**`.
-**Verifikation:** Vitest mit happy-dom bzw. jsdom gegen `tests/fixtures/tfc-html/` (DOM-Umgebung ggf. neue Dev-Abhängigkeit, vorher fragen).
-**Abhängigkeiten:** T8, **Q1 (HTML-Fixtures)**
-**Dateien:** `bookmarklet/src/extract/{reports,kpis,finance,decisions,tooltips}.ts`, `tests/unit/extract.test.ts`, `tests/fixtures/tfc-html/**`
-**Größe:** M
+- [ ] Der Prompt ist auf der Seite kopierbar und verweist auf das Rohformat-Schema.
+- [ ] Eine mit dem Prompt erzeugte Datei besteht den Upload aus T9 (manuell durch euch).
+- [ ] Liefert die Datei IDs und Hierarchie, verschwinden die zugehörigen Warnungen.
+**Verifikation:** Unit-Test: Rohdatei mit IDs ergibt v1 ohne ID-Warnungen. **Manueller Lauf in Claude Desktop durch euch.**
+**Abhängigkeiten:** T9
+**Dateien:** `shared/import/claude-desktop-prompt.ts`, `app/pages/settings/export.vue`, `tests/unit/normalize-ids.test.ts`
+**Größe:** S
 
-### - [ ] T12: Bookmarklet-Runtime, Build und Anleitungsseite
-**Beschreibung:** `bookmarklet/src/export.ts`: Overlay mit Rundenauswahl, Fortschritt (höchstens 4 parallele `fetch`), Download als `tfc_team6_round{R}_{Datum}.json`. Kein Versand an Dritte. `bookmarklet/build.ts` (esbuild, über Vite/Nuxt bereits vorhanden) erzeugt `public/bookmarklet/`. Seite `/settings/bookmarklet` mit Link zum Ziehen und Konsolen-Fallback.
+### - [ ] T12: Lokales Export-Skript (Form nach Q7)
+**Beschreibung:** Skript liest die HTML-Seiten des Spiels (Berichte inkl. Zeilen-CSS-Klassen, `createKpiChart`, Finanzen, Entscheidungsformulare mit `data-entity-id`, Tooltips, „blob does not exist“ → `status: open`) und erzeugt mit `normalize` eine v1-Datei. Höchstens 4 parallele Anfragen, keine Daten an Dritte, unbekannte Strukturen → `warnings[]`. Modus „HTML sichern“ liefert die Fixtures für die Tests (Q1). Bei Bedarf in zwei Tasks teilen (Parser / Laufzeit), sobald Q7 entschieden ist.
 **Akzeptanzkriterien:**
-- [ ] Im eingeloggten TFC-Tab entsteht eine Datei, die der Upload aus T9 ohne Fehler akzeptiert.
-- [ ] Im Netzwerk-Tab gibt es nur Anfragen an `game.thefreshconnection.eu`.
-- [ ] Das Bundle hat keine externen Skript-Abhängigkeiten. Der Konsolen-Fallback funktioniert.
-**Verifikation:** Unit-Test für die Concurrency-Begrenzung. **Manueller Test im echten Spiel durch euch.**
-**Abhängigkeiten:** T11
-**Dateien:** `bookmarklet/src/export.ts`, `bookmarklet/src/overlay.ts`, `bookmarklet/build.ts`, `app/pages/settings/bookmarklet.vue`
-**Größe:** M
+- [ ] Im eingeloggten Spiel entsteht eine Datei, die der Upload aus T9 ohne Fehler akzeptiert.
+- [ ] Gegen gespeicherte HTML-Fixtures: In `sales_customerproduct` hat jede Zeile `customer` und `product`, die Summe je Produkt entspricht `sales_product` (± 3 Stück).
+- [ ] Netzwerkanfragen gehen nur an `game.thefreshconnection.eu`. Abdeckung der Parser ≥ 90 %.
+**Verifikation:** Vitest gegen `tests/fixtures/tfc-html/` (DOM-Umgebung ggf. neue Dev-Abhängigkeit, vorher fragen). **Manueller Test im echten Spiel durch euch.**
+**Abhängigkeiten:** T8, **Q7**, **Q1 (HTML-Fixtures)**
+**Dateien:** `export-script/src/extract/*.ts`, `export-script/src/run.ts`, `tests/unit/extract.test.ts`, `tests/fixtures/tfc-html/**`
+**Größe:** M (wird ggf. geteilt)
 
 ### Checkpoint Phase 4
 - [ ] Echter Export aus dem Spiel hochgeladen, Stichproben aus Spec 10 stimmen
@@ -323,7 +324,7 @@
 - [ ] `docker compose up -d --build` auf einem frischen Server mit ausgefüllter `.env` liefert ein erreichbares `/login`.
 - [ ] Alle sechs Erfolgskriterien aus Spec 14 sind abgehakt (Kriterium 3 und 4 durch euch im echten Spiel).
 **Verifikation:** E2E-Lauf. Abnahmeprotokoll.
-**Abhängigkeiten:** T22, T23 (und T12 für Kriterium 3)
+**Abhängigkeiten:** T22, T23 (und T11/T12 für Kriterium 3)
 **Dateien:** `tests/e2e/*.spec.ts`, `playwright.config.ts`, `README.md`
 **Größe:** M
 
